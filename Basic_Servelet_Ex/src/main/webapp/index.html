@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Welcome To Servlet</h1>
+	
+	<a href="welcome">Click Here for Welcome Servlet</a>
+	<br>
+	<a href="connection">JDBC Connection</a>
+	<br>
+	
+	<a href="list">Fetch Records</a>
+	<br>
+	
+	<hr>
+	<form action="insert" method="post">
+		
+		<input type="text" name="name" placeholder="enter name"/><br>
+		<input type="text"  name="email" placeholder="enter email"/><br>
+		<input type="text" name="username" placeholder="enter username"/><br>
+		<input type="submit" value="Save"/><br>
+	</form>
+	
+	<hr>
+	<!-- this one is for DELETE a RECORD -->
+<h1>DELETE RECORD</h1>
+<form action="delete"  method="post">
+Product id: <input type="text" name="id" placeholder="Enter Product id"><br><br>
+<input type="submit" value="DELETE Prodcut">
+
+</form>
+
+<br>
+<br>
+
+<!-- this one is for DELETE a RECORD -->
+<h1>UPDATE RECORD</h1>
+<form action="update"  method="post">
+	<input type="text" name="id" placeholder="enter userID"/><br>
+		<input type="text" name="name" placeholder="enter name to be updated"/><br>
+		<input type="text"  name="email" placeholder="enter email to be updated"/><br>
+		<input type="text" name="username" placeholder="enter username to be updated"/><br>
+<input type="submit" value="UPDATE Prodcut">
+
+</form>
+
+	
+
+</body>
+</html>
